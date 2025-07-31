@@ -1,0 +1,20 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  box-shadow: 10px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: 1px solid black;
+  padding: 8px;
+  background-color: antiquewhite;
+}
+
+.product p {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

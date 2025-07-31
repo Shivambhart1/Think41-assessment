@@ -4,7 +4,8 @@ const mongoose = require('mongoose')
 
 const Product = require('../models/Product')
 
-mongoose.connect('mongodb+srv://admin-shivam:psych0boyy@event-management.jdroe.mongodb.net/CSTech').then(() => {
+mongoose.connect('mongodb+srv://admin-shivam:psych0boyy@event-management.jdroe.mongodb.net/CSTech')
+.then(() => {
   const results = [];
   fs.createReadStream('products.csv')
   .pipe(csv())
