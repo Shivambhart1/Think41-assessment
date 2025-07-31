@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Product.css"
 
-const SpecificProduct = ({ onClose ,children }) => {
+const SpecificProduct = ({ onClose , children }) => {
   return (
     <div className='popup-overlay'>
       <div className='popup-content'>
